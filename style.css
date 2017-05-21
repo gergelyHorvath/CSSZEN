@@ -1,0 +1,67 @@
+a:link {
+	color: #6D2542;
+	text-decoration: none;
+	}
+a:visited {
+	color: #999999;
+	text-decoration: none;
+	}
+a:hover {
+	color: #999999;
+	text-decoration: underline;
+	}
+a:active {
+	color: #999999;
+	text-decoration: none;
+	} 
+
+
+@font-face {
+    font-family: 'jedi';
+    src: url(Starjhol.ttf);
+}
+
+p {
+    font-family: arial
+}
+
+h1, h2, h3{
+    color: #ffd700;
+    font-family: 'jedi';
+}
+
+body {
+    background: black url(background.jpg) repeat-y top left; 
+}
+
+.sidebar {
+    background-color: #faebd7;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 280px;
+    padding: 10px 16px;
+    border-radius: 15px 0 0 15px;
+}
+
+.page-wrapper {
+    
+    background-color: #faebd7;
+    margin: 100px 320px;
+    padding: 1px 16px;
+    border-radius: 15px;
+}
+
+header {
+    border-width:  0;
+    background: black url(header.jpg) no-repeat top left 100%;
+    color: #ffd700;
+}
+
+header h1 {
+    font-size: 80px;
+    forn
+}
+
+
+}   
