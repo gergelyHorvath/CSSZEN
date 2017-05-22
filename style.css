@@ -1,3 +1,14 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: black url(death_star.jpg) no-repeat bottom right;
+    background-size:  1400px 800px;
+}
+
+a {
+    font-size: 20px;
+    line-height: 1.5em;
+}
 a:link {
 	color: #6D2542;
 	text-decoration: none;
@@ -21,47 +32,128 @@ a:active {
     src: url(Starjhol.ttf);
 }
 
-p {
-    font-family: arial
+@font-face {
+    font-family: 'jedifull';
+    src: url(Starjedi.ttf);
 }
 
-h1, h2, h3{
-    color: #ffd700;
+p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
     font-family: 'jedi';
 }
 
-body {
-    background: black url(background.jpg) repeat-y top left; 
+h3 {
+    font-family: 'jedifull';
+    font-size: 150%;
+    padding: 0 15px;
+    border-bottom: 3px black solid;
+    border-top: 3px black solid;
+}
+
+.page-weapper{
+    display: block;
 }
 
 .sidebar {
     background-color: #faebd7;
     position: absolute;
-    top: 100px;
+    top: 400px;
     right: 0;
-    width: 280px;
+    width: 380px;
     padding: 10px 16px;
-    border-radius: 15px 0 0 15px;
 }
 
-.page-wrapper {
-    
-    background-color: #faebd7;
-    margin: 100px 320px;
-    padding: 1px 16px;
-    border-radius: 15px;
+ #design-selection, #design-archives {
+     margin-bottom: 40px;
+ }
+
+
+#zen-intro{
+    margin-bottom: 30px;
 }
 
 header {
-    border-width:  0;
-    background: black url(header.jpg) no-repeat top left 100%;
+    width: 100%;
+    background: black url(header.jpg) no-repeat top right ;
     color: #ffd700;
+    position: absolute;
+    top: 0;
+    left: 0;    
+    line-height: 3em;
 }
 
 header h1 {
-    font-size: 80px;
-    forn
+    padding: 30px;
+    font-size: 90px;
+}
+
+header h2 {
+    padding: 30px;
+    font-size: 35px;
+    position: relative;
+    left: 150px;
+}
+
+#zen-summary {
+    background-color: #faebd7;
+    margin: 400px 440px 10px 25px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    font-style: italic;
+    font-size: 130%;
+}
+
+#zen-preamble {
+    background-color: #faebd7;
+    margin: 10px 440px 10px 25px;
+    padding: 20px;
 }
 
 
+#zen-explanation,#zen-participation ,#zen-benefits {
+    background-color: #faebd7;
+    line-height: 2em;
+    margin: 10px 440px 10px 25px;
+    padding: 20px;
+}
+
+#zen-requirements {
+    background: #faebd7;
+    line-height: 2em;
+    margin: 10px 720px 10px 25px;
+    padding: 20px;
+}
+
+footer {
+    font-size: 200%;
+    background-color: #faebd7;
+    margin: 110px 25px 0 25px;
+    padding: 30px;
 }   
+
+footer a:link {
+	font-size: 1.1em;
+    margin: 0 7%;
+    color: #faebd7;
+	font-family: 'jedifull';
+    padding: 15px;
+    background-color: black;
+    border-radius: 9px;
+}
+footer a:visited {
+	color: #faebd7;
+	text-decoration: none;
+}
+footer a:hover, footer a:active {
+	color: white;
+    opacity: 0.4;
+    text-decoration: none;
+}
+
+
+
